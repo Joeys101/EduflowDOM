@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(170, 2, 37);
+}
+
+.container {
+    width: 800px;
+    height: 700px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 50px;
+    margin: auto;
+}
+
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#texto1 {
+    color: rgb(255, 250, 175);
+}
+
+#texto2 {
+    color: rgb(255, 153, 0);
+}
+
+#error {
+    color: rgb(255, 205, 129);
+}
+
+#boton {
+    background-color: rgb(251, 162, 72);
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+}
+#boton:hover {
+    transition: 0.4s;
+    background-color: rgb(194, 119, 44);
+}
+
+#ingredientes{
+    color:rgb(255, 205, 129) ;
+}
+
+input {
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  border: none;
+  text-align: center;
+}
+
+input, input[placeholder] {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 120px;
+}
+
+*:focus {
+    outline: none;
+}
