@@ -101,3 +101,23 @@ input, input[placeholder] {
 *:focus {
     outline: none;
 }
+@media (max-width: 780px) {
+  .container{
+   width: 100%;
+   height: 100%;
+}
+#ingredientes{
+    margin-top: -20%;
+}
+
+.form-container{
+    margin-top: -5%;
+}
+.text-container {
+    margin-top: -5%;
+    margin-bottom: 0 ;
+}
+img {
+    margin-top: -5%;
+}
+}
